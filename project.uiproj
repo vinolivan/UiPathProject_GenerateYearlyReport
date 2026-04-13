@@ -1,0 +1,6 @@
+{
+  "Name": "HelloFromCICDPipeline",
+  "ProjectType": "Process",
+  "Description": "",
+  "MainFile": "Main.xaml"
+}
