@@ -98,7 +98,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[in_TransactionItem.SpecificContent(&quot;Input&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[in_TransactionItem.SpecificContent(&quot;Input&quot;).ToString]" />
     <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="450,80" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
   </Sequence>
 </Activity>
